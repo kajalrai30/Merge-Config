@@ -6,4 +6,9 @@ public class Addition {
 	{
 		return a+b;
 	}
+	
+	public Double add(Double a, Double b)
+	{
+		return a+b;
+	}
 }

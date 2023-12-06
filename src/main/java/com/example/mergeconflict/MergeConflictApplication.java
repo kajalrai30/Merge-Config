@@ -11,8 +11,7 @@ public class MergeConflictApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MergeConflictApplication.class, args);
 		Addition addition = new Addition();
-		Integer c=addition.add(10, 20);
-		System.out.print("sum ="+c);
+		System.out.print("sum ="+addition.add(10.0, 20.0));
 	}
 
 }
